@@ -1,0 +1,176 @@
+<!-- 
+Facultad de Arquitectura
+Colegio de Diseño Grafico
+Diseño de Interfaces Graficas de Usuario
+Creador:Alejandra Bonilla García
+-->
+
+<html lang=es>
+    <head>
+        <meta charset="utf-8">
+        <title>Mi primera página web </title>
+        
+                <style type="text/css">
+            
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header, nav, main, footer{
+                width: 960px;
+                color: #EEEEEE;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+        
+            header{
+                background-color:#3795BD;
+                height: 150px;
+            }
+            
+            nav{
+                height: 50px;
+                background-color:  #1A4870;
+            }
+            
+                ul{
+                list-style-type:none;
+                text-align: center;
+                }
+            
+                li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+                }
+            
+            main{
+                height: auto;
+                background-color: #E2DAD6;
+            }
+            
+            footer{
+                height: 50px;
+                background-color: #3795BD;
+            }
+            
+            section{
+                width: 800px;
+                background-color: #5B99C2;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding: 30px;
+            }
+            
+            h2{
+                margin-bottom: 30px;
+            }
+            
+            h1, h5{
+                text-align: center;
+                padding: 30px;
+            }
+            
+            ul li{
+                width: 75px;
+                background-color: #EEEEEE;
+                color: #201E43;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            ul li a{
+                text-decoration: none;
+            }
+            
+            ul a:link, ul a:visited{
+                color: #201E43;
+            }
+            
+            ul a:hover{
+                color: #508C9B;
+                font-weight: bolder;                
+            }   
+                    
+        #yo_img{
+        width: 200px;
+        height: auto;
+        float: left;
+        padding-right: 10px;
+        margin-bottom: 80px;
+            
+        }
+                
+        #fami_img {
+        display: block;
+        width: 300px;
+        height: auto;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+                    
+        #ceram_img{
+        width: 280px;
+        height: auto;
+        float: right;
+        padding-right: 10px;
+        margin-bottom: 80px;
+        }
+        </style>        
+    </head>
+    
+<body>
+    <header>
+        <h1> Hola, soy Alejandra Bonilla García </h1>
+    </header>
+    
+<nav>
+    <ul>          
+        <li><a href="html/index.html">Formatos</a></li>
+        <li><a href="html/Listas.html">Listas</a></li>
+        <li><a href="html/Enlaces.html">Enlaces</a></li>
+        <li><a href="html/tablas.html">Tablas</a></li>
+        <li><a href="html/imagenes.html">Imagenes</a></li>
+        <li><a href="html/audio.html">Audio</a></li>
+        <li><a href="html/video.html">Video</a></li>
+        <li><a href="html/formularios.html">Formularios</a></li>          
+    </ul>    
+</nav>
+
+<main>
+    <section>
+        <h2> ¿Quien soy yo? </h2>
+      <p><img id="yo_img" src="media/imagenes/yo.jpg" alt="mi foto"></p>
+        <p>Soy Alejandra Bonilla, nací el 14 de abril del 2002 en <b>Huamantla, Tlaxcala</b>, tengo 22 años, toda mi vida viví hasta que tuve que mudarme a Puebla por la universidad en donde actualmente soy estudiante de Diseño Gráfico y actualmente estoy cursando el séptimo semestre.
+        Estudié desde kinder hasta bachillerato en el Colegio Juana De Arco, en el colegio me gustaba participar en varias actividades por lo que práctique basquetbol, escolta para concursos estatales, oratoria, poesía, danza y teatro; además, por las tardes en el Centro cultural de mi municipio también tuve la oportunidad de tomar clases de pintura y dibujo, ballet clásico, fotografía, titeres, entre otros.</p>
+    </section>
+
+    <section>
+    <h2> Mi familia</h2>
+    <p>Mis papás son <i>Alejandro Bonilla y Lidia García</i>, ellos tienen 54 años y son profesores; solo tengo una hermana, se llama <i>Ariadna</i>, ella estudió medicina y actualmente está haciendo su internado. Mis abuelitos también son una parte <em>importante</em> para mí, ellos son Aaron García y Carmen García, pues son con las personas que más estaba de pequeña </p> <p><img id="fami_img" src="media/imagenes/familia.jpg" alt="mi foto"></p>
+    </section>
+    
+    <section>
+    <h2> Mis hobbies</h2>
+    <p><img id="ceram_img" src="media/imagenes/ceramica.jpg" alt="mi foto"></p>
+    <h3> Basketball </h3>
+    <p>Desde pequeña empecé a jugar este desporte 12 y aunque ya no lo práctico como antes por falta de tiempo (t=<sup>V</sup>f-<sup>V</sup>i/a) , me sigue gustando mucho porque <mark>me ayuda a sentirme mejor</mark> </p>
+    
+    <h3> Bailar </h3>
+    <p>Siempre me ha gustado, siento que puedo pasar horas bailando, los ritmos que más me gustan son la bachata, la cumbia y el belly que es un ritmo árabe h<sub>2</sub>O </p>
+    
+    <h3> Cerámica </h3>
+    <p>Mi nuevo hobbie favorito es hacer cosas con pasta italiana, me metí a un curso en verano <b><del>en un tallercito de mi ciudad</del></b> y me gustó sentir la textura de la pasta en mis manos y poder crear lo que yo quiera desde cero</p>
+    </section>
+</main>
+    
+<footer>
+  <h5>Elaborado por Alejandra Bonilla</h5>
+</footer>
+    
+</body>
+</html>
